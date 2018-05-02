@@ -22,7 +22,6 @@ int num;
 employee emp[max],tempemp[max],sortemp[max],sortemp1[max];
 int main()
 {
-
  system("cls");
  void build();
  void list();
@@ -34,7 +33,6 @@ int main()
  char option;
  void menu();
  menu();
-
  while((option=cin.get())!='q')
  {
   switch(option)
@@ -435,7 +433,7 @@ void sortcode()
  for( i=0;i<=num-1;i++)
    {
     cout<<"     Name     Code     Designation     Years(EXP)     Age ";
-cout<<"----------------------------------------------------------------------- -------------------";
+cout<<"-----------------------------------------------------------------------";
 
  for( i=0;i<=num-1;i++)
  {
@@ -471,7 +469,6 @@ void sortdes()
     }
    }
  }
-
  for( i=0;i<=num-1;i++)
    {
     cout<<"     Name     Code     Designation     Years(EXP)     Age";
@@ -526,7 +523,6 @@ void sortage()
   cout<<"Press Any Key To Go Back";
  getch();
 } }
-
 void sortexp()
 {
  system("cls");
@@ -552,7 +548,7 @@ void sortexp()
  for( i=0;i<=num-1;i++)
    {
     cout<<"     Name     Code     Designation     Years(EXP)     Age ";
- cout<<"                  --------------------------------------------------------------------------               ";
+ cout<<"--------------------------------------------------------------------------";
 for( i=0;i<=num-1;i++)
 {
 cout<<setw(13)<<sortemp1[i].name;
