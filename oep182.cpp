@@ -472,7 +472,7 @@ void sortdes()
  for( i=0;i<=num-1;i++)
    {
     cout<<"     Name     Code     Designation     Years(EXP)     Age";
- cout<<"----------------------------------------------------------------------------------------------------------------- ";
+ cout<<"------------------------------------------------------------------- ";
  for( i=0;i<=num-1;i++)
  {
   cout<<setw(13)<<sortemp1[i].name;
@@ -506,7 +506,6 @@ void sortage()
     }
    }
  }
-
  for( i=0;i<=num-1;i++)
    {
     cout<<"     Name     Code     Designation     Years(EXP)     Age";
@@ -544,11 +543,10 @@ void sortexp()
     }
    }
  }
-
  for( i=0;i<=num-1;i++)
    {
     cout<<"     Name     Code     Designation     Years(EXP)     Age ";
- cout<<"--------------------------------------------------------------------------";
+ cout<<"-----------------------------------------------------------------------";
 for( i=0;i<=num-1;i++)
 {
 cout<<setw(13)<<sortemp1[i].name;
