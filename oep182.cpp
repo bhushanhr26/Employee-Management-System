@@ -104,6 +104,7 @@ cout<<"Build The Table";
  cout<<"how many do you want----->";
  cin>>num;
  cout<<"Enter The Following Items"<<endl;
+ 
  for(int i=0;i<=num-1;i++)
  {
   cout<<" Name  ";
@@ -120,6 +121,7 @@ cout<<"Build The Table";
   cout<<"going to main menu";
  Sleep(500);
 }
+
 void  list()
 {
  system("cls");
@@ -139,7 +141,8 @@ void  list()
   cout<<"going to main menu";
  getch();
   }
-  void insert()
+  
+void insert()
   {
   system("cls");
   int i=num;
@@ -202,6 +205,7 @@ else
    emp[i]=tempemp[i];
 }
  }
+
 void edit()
 {
  system("cls");
@@ -253,7 +257,8 @@ switch(option)
   }
   }
   }
-  void editmenu()
+  
+void editmenu()
   {
    system("cls");
    cout<<"        What Do You Want To edit";
@@ -290,6 +295,7 @@ switch(option)
    cout<<"Enter new Age ";
    cin>>emp[i].age;
   }
+
 void search()
 {
  system("cls");
@@ -317,6 +323,7 @@ void search()
   cout<<"going to main menu";
  getch();
 }
+
 void sort()
 {
  system("cls");
