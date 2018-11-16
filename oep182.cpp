@@ -72,7 +72,6 @@ int main()
  void menu()
  {
   system("cls");
-
 cout<<"          ";
 cout<<"\n*****  Employees Management System 1.0 ***** ";
 cout<<endl;
@@ -95,6 +94,7 @@ cout<<"\n\t\t Press  q---------->Quit Program              ";
 cout<<"             ";
 cout<<"\n\n \t\t Select Your Option Please ====> ";
 }
+
 void build()
 {
  system("cls");
