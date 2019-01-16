@@ -18,6 +18,7 @@ struct employee
  int age;
 };
 
+
 int num;
 employee emp[max],tempemp[max],sortemp[max],sortemp1[max];
 int main()
@@ -94,6 +95,7 @@ cout<<"\n\t\t Press  q---------->Quit Program              ";
 cout<<"             ";
 cout<<"\n\n \t\t Select Your Option Please ====> ";
 }
+
 
 void build()
 {
