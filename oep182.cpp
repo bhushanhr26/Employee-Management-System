@@ -8,8 +8,6 @@
 #include<cstdio>
 #define max 20
 using namespace std;
-
-
 struct employee
 {
  char name[20];
