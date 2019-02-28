@@ -7,6 +7,7 @@
 #include<conio.h>
 #include<cstdio>
 #define max 20
+
 using namespace std;
 struct employee
 {
