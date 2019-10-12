@@ -61,9 +61,7 @@ int main()
         search();
         break;
 
-   case 'n':
-         sort();
-         break;
+
   }
    menu();
   }
