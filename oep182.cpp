@@ -49,7 +49,7 @@ int main()
          insert();
          break;
 
-   case 'd':
+   case 'z':
          deletes();
          break;
 
@@ -90,7 +90,7 @@ cout<<"\n\t\t Press  s---->Search Arecord          ";
 cout<<"             ";
 cout<<"\n\t\t Press  n---->Sort The Table          ";
 cout<<"             ";
-cout<<"\n\t\t Press  q---------->Quit Program              ";
+cout<<"\n\t\t Press  q------------>Quit Program              ";
 cout<<"             ";
 cout<<"\n\n \t\t Select Your Option Please ====> ";
 }
@@ -126,7 +126,7 @@ cout<<"Build The Table";
 void  list()
 {
  system("cls");
- cout<<"****************List The Table*********************";
+ cout<<"****************List The Table***********************";
  cout<<endl;
  cout<<"     Name     Code     Designation     Years(EXP)     Age "<<endl;
  cout<<"------------------------------------------------------------"<<endl;
@@ -211,7 +211,7 @@ void edit()
 {
  system("cls");
 int jobcode;
- printf("--------------------Edit An Entry---------------------------");
+ printf("--------------------Edit An Entry-----------------------------");
  cout<<endl;
  cout<<endl;
  int i;
@@ -222,7 +222,7 @@ int jobcode;
  void editexp(int);
  void editage(int);
  char option;
- cout<<"---------------------Enter An jobcode To Edit An Entry---------------------- ";
+ cout<<"-----------------------Enter An jobcode To Edit An Entry------------------------ ";
  cin>>jobcode;
   editmenu();
  for(i=0;i<=num-1;i++)
