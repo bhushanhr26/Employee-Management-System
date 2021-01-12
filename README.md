@@ -1,2 +1,2 @@
 # employee-management-system-using-cpp
-OEP - C++ (2140705)
+Open Ended Project - C++ (2140705)
